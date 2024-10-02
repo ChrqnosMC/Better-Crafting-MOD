@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.chrqnos.better_crafting.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RecipeBookWidgetMixin",
+    "RecipeResultCollectionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

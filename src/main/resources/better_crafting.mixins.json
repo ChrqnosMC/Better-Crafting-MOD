@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "package": "net.chrqnos.better_crafting.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "block.entity.AbstractFurnaceBlockEntityMixin",
+    "block.entity.CrafterBlockEntityMixin",
+    "entity.PlayerInventoryMixin",
+    "inventory.CraftingInventoryMixin",
+    "inventory.PlayerInventoryMixin",
+    "inventory.SimpleInventoryMixin",
+    "recipe.Ingredient$StackEntryMixin",
+    "recipe.Ingredient$TagEntryMixin",
+    "recipe.IngredientMixin",
+    "recipe.InputSlotFillerMixin",
+    "recipe.RepairItemRecipeMixin",
+    "recipe.ShapelessRecipeMixin",
+    "recipe.input.CraftingRecipeInputMixin",
+    "screen.AbstractFurnaceScreenHandlerMixin",
+    "screen.CraftingScreenHandlerMixin",
+    "screen.PlayerScreenHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
